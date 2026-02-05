@@ -9,7 +9,7 @@ Ce workflow permet de définir l'ADN profond de la marque avec l'aide de l'exper
 <workflow_steps>
 <step name="Initialisation">
   <action>
-    Active le persona **Aura Strategy** défini dans `../aura_brand_strategist.md`.
+    Active le persona **Aura Strategy** défini dans `../agent-brand-strategist.md`.
     Annonce : "Bienvenue. Nous allons définir la structure porteuse de votre marque. Prêt à creuser ?"
   </action>
 </step>
