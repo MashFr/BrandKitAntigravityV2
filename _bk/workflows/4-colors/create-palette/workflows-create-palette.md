@@ -35,6 +35,8 @@ Ce workflow définit l'univers chromatique de la marque, en alliant psychologie 
   <step name="Stratégie Psychologique" file="@_bk/workflows/4-colors/create-palette/steps/01_psychology.md" />
   
   <step name="Génération Palettes" file="@_bk/workflows/4-colors/create-palette/steps/02_generation.md" />
+
+  <step name="Stratégie Dark/Light" file="@_bk/workflows/4-colors/create-palette/steps/03b_dark_light.md" />
   
   <step name="Check Accessibilité" file="@_bk/workflows/4-colors/create-palette/steps/03_accessibility.md" />
   

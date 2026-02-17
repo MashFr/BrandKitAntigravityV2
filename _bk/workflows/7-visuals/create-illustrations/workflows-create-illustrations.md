@@ -21,10 +21,11 @@ Ce workflow définit le style illustratif de la marque et génère les prompts p
       - `brandkit_output/01_foundation_strategy.md`
       - `brandkit_output/03_colors.md`
       - `brandkit_output/05_graphic_universe.md`
+      - `brandkit_output/06_image_video_treatment.md`
 
       SI (les fichiers sont absents) {
           Arrête le workflow.
-          Informe l'utilisateur : "⚠️ Contexte insuffisant. Veuillez définir l'Univers Graphique et les Couleurs avant de créer des illustrations."
+          Informe l'utilisateur : "⚠️ Contexte insuffisant. Veuillez définir l'Univers Graphique et le Traitement Image avant de créer des illustrations."
       }
       SINON {
           Charge les fichiers avec `view_file`.
@@ -43,7 +44,7 @@ Ce workflow définit le style illustratif de la marque et génère les prompts p
   
   <step name="Clôture">
     <action>
-      Confirme la création de `brandkit_output/09_illustrations.md`.
+      Confirme la création de `brandkit_output/10_illustrations.md`.
       Suggère de tester les visuels dans Nanobanana.
     </action>
   </step>

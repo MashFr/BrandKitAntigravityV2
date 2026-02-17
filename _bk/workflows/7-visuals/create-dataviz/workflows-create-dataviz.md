@@ -43,7 +43,7 @@ Ce workflow définit une manière propriétaire de visualiser l'information et g
   
   <step name="Clôture">
     <action>
-      Confirme la création de `brandkit_output/11_aesthetic_dataviz.md`.
+      Confirme la création de `brandkit_output/12_aesthetic_dataviz.md`.
     </action>
   </step>
 </workflow_steps>

@@ -14,7 +14,7 @@ description: Step 4 - Finalisation & Guide de Prompt
         - {{DETAIL_SUBJECT}}, {{DETAIL_PROMPT_FULL}}
         - {{NEGATIVE_PROMPT}}
         
-        Génère le fichier `brandkit_output/06_moodboard_prompts.md`.
+        Génère le fichier `brandkit_output/07_moodboard_prompts.md`.
         
         Rappel : Ces prompts sont prêts à être copiés-collés dans Nanobanana.
     </action>

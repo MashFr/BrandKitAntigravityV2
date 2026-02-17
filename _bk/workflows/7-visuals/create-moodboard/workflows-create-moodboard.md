@@ -22,10 +22,11 @@ Ce workflow génère les prompts (Nanobanana) pour créer les assets visuels du 
       - `brandkit_output/02_verbal_identity.md` (Pour le Ton)
       - `brandkit_output/03_colors.md` (Pour la palette)
       - `brandkit_output/05_graphic_universe.md` (Pour le style global)
+      - `brandkit_output/06_image_video_treatment.md` (Pour la photographie)
 
       SI (les fichiers sont absents) {
           Arrête le workflow.
-          Informe l'utilisateur : "⚠️ Données visuelles manquantes. Veuillez définir l'Univers Graphique et les Couleurs avant de générer des images."
+          Informe l'utilisateur : "⚠️ Données visuelles manquantes. Veuillez définir l'Univers Graphique, les Couleurs et le Traitement Image avant de générer des images."
       }
       SINON {
           Charge les fichiers en contexte avec `view_file`.
@@ -44,7 +45,7 @@ Ce workflow génère les prompts (Nanobanana) pour créer les assets visuels du 
   
   <step name="Clôture">
     <action>
-      Confirme que le guide de prompts est enregistré dans `brandkit_output/06_moodboard_prompts.md`.
+      Confirme que le guide de prompts est enregistré dans `brandkit_output/07_moodboard_prompts.md`.
       Encourage l'utilisateur à tester les prompts dans Nanobanana.
     </action>
   </step>

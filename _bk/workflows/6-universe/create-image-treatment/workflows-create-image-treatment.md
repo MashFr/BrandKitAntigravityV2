@@ -20,7 +20,6 @@ Ce workflow définit la signature visuelle "post-production" de la marque pour g
       - `brandkit_output/01_foundation_strategy.md`
       - `brandkit_output/03_colors.md`
       - `brandkit_output/05_graphic_universe.md`
-      - `brandkit_output/06_moodboard_prompts.md`
 
       SI (les fichiers sont absents) {
           Arrête le workflow.

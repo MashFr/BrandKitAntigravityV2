@@ -20,7 +20,7 @@ Ce workflow définit l'environnement de présentation de la marque et génère d
       - `brandkit_output/01_foundation_strategy.md`
       - `brandkit_output/03_colors.md`
       - `brandkit_output/05_graphic_universe.md`
-      - `brandkit_output/06_moodboard_prompts.md` (Crucial pour la cohérence lumineuse)
+      - `brandkit_output/07_moodboard_prompts.md` (Crucial pour la cohérence lumineuse)
 
       SI (les fichiers sont absents) {
           Arrête le workflow.
@@ -43,7 +43,7 @@ Ce workflow définit l'environnement de présentation de la marque et génère d
   
   <step name="Clôture">
     <action>
-      Confirme la création de `brandkit_output/10_mockups_scenography.md`.
+      Confirme la création de `brandkit_output/11_mockups_scenography.md`.
     </action>
   </step>
 </workflow_steps>

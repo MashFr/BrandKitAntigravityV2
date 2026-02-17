@@ -6,7 +6,7 @@ description: Step 1 - Synthèse de la Direction Artistique
     <action>
         Synthétisons le "Brief Visuel" avant de prompter.
         
-        Analyse les fichiers chargés (Stratégie, Couleurs, Univers Graphique).
+        Analyse les fichiers chargés (Stratégie, Couleurs, Univers Graphique, Traitement Image).
         
         Défins les **Mots-Clés Visuels** (Tokens) qui serviront de base à tous les prompts :
         1.  **Lumière** (ex: Volumetric lighting, Golden hour, Neon noir, Softbox...).

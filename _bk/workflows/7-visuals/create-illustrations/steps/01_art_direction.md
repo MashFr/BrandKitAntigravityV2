@@ -4,7 +4,7 @@ description: Step 1 - Définition du Style Illustratif
 
 <step id="01_art_direction">
     <action>
-        Analyse l'**Archétype** (01) et le **Manifeste Graphique** (05) pour définir le style d'illustration.
+        Analyse l'**Archétype** (01), le **Manifeste Graphique** (05) et le **Traitement Image** (06) pour définir le style d'illustration.
         
         L'illustration doit compléter la photographie, pas la copier.
         
