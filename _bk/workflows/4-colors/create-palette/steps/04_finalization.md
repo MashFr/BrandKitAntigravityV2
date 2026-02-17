@@ -15,6 +15,7 @@ description: Step 4 - Finalisation & Guide
         - {{SECONDARY_...}}
         - {{ACCENT_...}}
         - {{NEUTRAL_...}}
+        - {{DARK_...}} / {{LIGHT_...}} (Mode Sombre/Clair)
         - {{RATIO_...}} / {{STATUS_...}} (Tableau Accessibilité)
         - {{DO_1..3}} / {{DONT_1..3}}
         

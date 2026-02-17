@@ -39,7 +39,26 @@
 
 ---
 
-## 4. Matrice d'Accessibilité (Contrastes)
+## 4. Stratégie Duale (Dark/Light Mode)
+{{DARK_LIGHT_STRATEGY}}
+
+### 🌑 Mode Sombre ({{DARK_MODE_NAME}})
+{{DARK_MODE_Desc}}
+- **Background** : `{{DARK_BG_HEX}}` ({{DARK_BG_NAME}})
+- **Surface** : `{{DARK_SURFACE_HEX}}` ({{DARK_SURFACE_NAME}})
+- **Texte** : `{{DARK_TEXT_HEX}}` ({{DARK_TEXT_NAME}})
+- **Accent** : `{{DARK_ACCENT_HEX}}` ({{DARK_ACCENT_NAME}})
+
+### ☀️ Mode Clair ({{LIGHT_MODE_NAME}})
+{{LIGHT_MODE_Desc}}
+- **Background** : `{{LIGHT_BG_HEX}}` ({{LIGHT_BG_NAME}})
+- **Surface** : `{{LIGHT_SURFACE_HEX}}` ({{LIGHT_SURFACE_NAME}})
+- **Texte** : `{{LIGHT_TEXT_HEX}}` ({{LIGHT_TEXT_NAME}})
+- **Accent** : `{{LIGHT_ACCENT_HEX}}` ({{LIGHT_ACCENT_NAME}})
+
+---
+
+## 5. Matrice d'Accessibilité (Contrastes)
 *Standards WCAG AA (Minimum 4.5:1 pour le texte normal)*
 
 | Fond | Texte | Ratio | Statut |
@@ -52,7 +71,7 @@
 
 ---
 
-## 5. Règles d'Usage (Do/Don't)
+## 6. Règles d'Usage (Do/Don't)
 ✅ **À Faire** :
 - {{DO_1}}
 - {{DO_2}}
