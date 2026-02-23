@@ -7,19 +7,20 @@
 
 ---
 
-## 2. Bibliothèque de Scènes & Métaphores
+## 2. Template de Prompt (Master)
+Utilisez ce template pour créer de nouvelles illustrations cohérentes. Remplacez simplement la description entre crochets.
 
-### Illustration Maîtresse (Hero Illustration)
-> **Concept** : {{HERO_ILLUS_CONCEPT}}
 ```
-{{HERO_ILLUS_PROMPT}}
+{{MASTER_PROMPT_TEMPLATE}}
 ```
+> *Exemple : Remplacer `[DESCRIPTION DE LA SCÈNE]` par "Two colleagues brainstorming on a whiteboard in a modern office".*
 
-### Icônes Illustratives / Patterns
-> **Concept** : {{PATTERN_ILLUS_CONCEPT}}
-```
-{{PATTERN_ILLUS_PROMPT}}
-```
+---
+
+## 3. Catalogue d'Illustrations (9 Prompts Prêts à l'Emploi)
+Voici 9 variations prêtes à être générées pour couvrir vos besoins (Site Web, Slides, Blog...) :
+
+{{ILLUSTRATION_PROMPTS_LIST}}
 
 ---
 

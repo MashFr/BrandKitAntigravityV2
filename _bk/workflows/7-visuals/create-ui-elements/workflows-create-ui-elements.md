@@ -44,7 +44,7 @@ Ce workflow définit l'esthétique de l'interface utilisateur et génère des co
   
   <step name="Clôture">
     <action>
-      Confirme la création de `brandkit_output/13_ui_elements.md`.
+      Confirme la création de `brandkit_output/visuals/13_ui_elements.md`.
     </action>
   </step>
 </workflow_steps>

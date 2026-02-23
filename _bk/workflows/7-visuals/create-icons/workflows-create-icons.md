@@ -43,7 +43,7 @@ Ce workflow définit le style des icônes de la marque et génère les prompts p
   
   <step name="Clôture">
     <action>
-      Confirme la création de `brandkit_output/09_iconography.md`.
+      Confirme la création de `brandkit_output/visuals/09_iconography.md`.
       Suggère de tester les icônes dans Nanobanana.
     </action>
   </step>

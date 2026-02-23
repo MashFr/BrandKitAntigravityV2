@@ -44,7 +44,7 @@ Ce workflow définit le style illustratif de la marque et génère les prompts p
   
   <step name="Clôture">
     <action>
-      Confirme la création de `brandkit_output/10_illustrations.md`.
+      Confirme la création de `brandkit_output/visuals/10_illustrations.md`.
       Suggère de tester les visuels dans Nanobanana.
     </action>
   </step>

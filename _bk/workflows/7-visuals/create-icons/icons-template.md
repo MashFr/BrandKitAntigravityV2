@@ -11,16 +11,20 @@
 
 ## 2. Le Set d'Icônes Signature
 
-### Icônes 2D / Vectorielles
-> **Style Prompt Global** : `flat minimalist icon, vector art, white background, simple shapes, {{ICON_STYLE_TOKENS}} --no photorealistic 3d`
+### Le Prompt Template (Master)
+> **Master Prompt à copier-coller** :
+> `{{MASTER_ICON_PROMPT}}`
+> *Remplacez [SUBJECT] par le nom de l'icône souhaitée.*
 
-| Icône | Description | Prompt Nanobanana |
-| :--- | :--- | :--- |
-| {{ICON_1_NAME}} | {{ICON_1_DESC}} | `{{ICON_1_PROMPT}}` |
-| {{ICON_2_NAME}} | {{ICON_2_DESC}} | `{{ICON_2_PROMPT}}` |
-| {{ICON_3_NAME}} | {{ICON_3_DESC}} | `{{ICON_3_PROMPT}}` |
-| {{ICON_4_NAME}} | {{ICON_4_DESC}} | `{{ICON_4_PROMPT}}` |
-| {{ICON_5_NAME}} | {{ICON_5_DESC}} | `{{ICON_5_PROMPT}}` |
+### Liste des Icônes à produire
+
+| Icône | Description |
+| :--- | :--- |
+| {{ICON_1_NAME}} | {{ICON_1_DESC}} |
+| {{ICON_2_NAME}} | {{ICON_2_DESC}} |
+| {{ICON_3_NAME}} | {{ICON_3_DESC}} |
+| {{ICON_4_NAME}} | {{ICON_4_DESC}} |
+| {{ICON_5_NAME}} | {{ICON_5_DESC}} |
 
 ---
 

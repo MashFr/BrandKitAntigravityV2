@@ -16,8 +16,19 @@
 > **Lumière/Style** : {{HERO_LIGHTING}}
 > **Paramètres** : `--ar 16:9 --style raw`
 
+**Variation 1 :**
 ```
-{{HERO_PROMPT_FULL}}
+{{HERO_PROMPT_1}}
+```
+
+**Variation 2 :**
+```
+{{HERO_PROMPT_2}}
+```
+
+**Variation 3 :**
+```
+{{HERO_PROMPT_3}}
 ```
 
 ### Portrait / Produit (Plan Moyen)
@@ -26,8 +37,19 @@
 > **Lumière** : {{PORTRAIT_LIGHTING}}
 > **Paramètres** : `--ar 4:5 --style raw`
 
+**Variation 1 :**
 ```
-{{PORTRAIT_PROMPT_FULL}}
+{{PORTRAIT_PROMPT_1}}
+```
+
+**Variation 2 :**
+```
+{{PORTRAIT_PROMPT_2}}
+```
+
+**Variation 3 :**
+```
+{{PORTRAIT_PROMPT_3}}
 ```
 
 ### Texture / Détail (Plan Macro)
@@ -36,8 +58,19 @@
 > **Lumière** : {{DETAIL_LIGHTING}}
 > **Paramètres** : `--ar 1:1 --tile` (si texture répétable)
 
+**Variation 1 :**
 ```
-{{DETAIL_PROMPT_FULL}}
+{{DETAIL_PROMPT_1}}
+```
+
+**Variation 2 :**
+```
+{{DETAIL_PROMPT_2}}
+```
+
+**Variation 3 :**
+```
+{{DETAIL_PROMPT_3}}
 ```
 
 ---

@@ -45,7 +45,7 @@ Ce workflow génère les prompts (Nanobanana) pour créer les assets visuels du 
   
   <step name="Clôture">
     <action>
-      Confirme que le guide de prompts est enregistré dans `brandkit_output/07_moodboard_prompts.md`.
+      Confirme que le guide de prompts est enregistré dans `brandkit_output/visuals/07_moodboard_prompts.md`.
       Encourage l'utilisateur à tester les prompts dans Nanobanana.
     </action>
   </step>

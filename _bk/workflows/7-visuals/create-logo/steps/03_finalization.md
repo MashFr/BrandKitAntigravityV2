@@ -12,7 +12,7 @@ description: Step 3 - Finalisation & Guide Logo
         - {{DIRECTION_1_NAME}}, {{DIRECTION_1_CONCEPT}}, {{DIRECTION_1_PROMPT}}
         - (Idem pour Direction 2 et 3)
         
-        Génère le fichier `brandkit_output/08_logo_prompts.md`.
+        Génère le fichier `brandkit_output/visuals/08_logo_prompts.md`.
         
         Rappel : Ces prompts génèrent des *concepts*. La vectorisation finale se fait dans Illustrator.
     </action>

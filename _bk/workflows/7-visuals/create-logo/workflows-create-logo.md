@@ -42,7 +42,7 @@ Ce workflow génère des prompts techniques pour créer des concepts de logo vec
   
   <step name="Clôture">
     <action>
-      Confirme que le guide Logo est enregistré dans `brandkit_output/08_logo_prompts.md`.
+      Confirme que le guide Logo est enregistré dans `brandkit_output/visuals/08_logo_prompts.md`.
       Rappelle que l'IA génère des pixels, et qu'une vectorisation manuelle sera nécessaire.
     </action>
   </step>
