@@ -10,8 +10,17 @@
 ## 2. Template de Prompt (Master)
 Utilisez ce template pour créer de nouvelles illustrations cohérentes. Remplacez simplement la description entre crochets.
 
-```
-{{MASTER_PROMPT_TEMPLATE}}
+```text
+[VARIABLES]
+SCENE = "[DESCRIPTION DE LA SCÈNE]"
+ART_STYLE = "{{ILLUSTRATION_STYLE_NAME}}"
+PALETTE = "{{ILLUSTRATION_COLORS}}"
+LUMIERE_COMPO = "{{ILLUSTRATION_TEXTURE}}"
+
+[EXECUTION]
+Génère une illustration représentant SCENE. Applique le ART_STYLE avec PALETTE.
+Assure-toi d'utiliser LUMIERE_COMPO.
+Contraintes : artistic illustration, cohesive narrative --no icons, logos, mascots, 3d characters, ui mockups, photorealistic --ar 16:9 --style raw
 ```
 > *Exemple : Remplacer `[DESCRIPTION DE LA SCÈNE]` par "Two colleagues brainstorming on a whiteboard in a modern office".*
 

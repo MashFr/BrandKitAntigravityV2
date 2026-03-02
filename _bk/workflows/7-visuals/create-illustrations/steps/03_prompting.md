@@ -31,7 +31,19 @@ description: Step 3 - Prompting Illustratif (Nanobanana)
                 - Data Visualization - Représentation artistique de données.
                 - Community / Social - Interaction humaine stylisée.
 
-        **Structure des Prompts (Midjourney/Nanobanana)** :
-        `[SCENE DESCRIPTION], [ART STYLE], [COLOR PALETTE], [LIGHTING & ATMOSPHERE], [COMPOSITION], --ar 16:9 --v 6.0 --style raw`
+        **Structure des Prompts (Nano Banana BANANA + Pseudo-Code)** :
+        Respecte la structure suivante pour le Master Template et les déclinaisons :
+        ```text
+        [VARIABLES]
+        SCENE = "[DESCRIPTION DE LA SCÈNE]"
+        ART_STYLE = "[Style détaillé de l'étape 01]"
+        PALETTE = "[Couleurs de l'étape 01]"
+        LUMIERE_COMPO = "[Eclairage, texture et composition]"
+
+        [EXECUTION]
+        Génère une illustration représentant SCENE. Applique le ART_STYLE avec PALETTE.
+        Assure-toi d'utiliser LUMIERE_COMPO.
+        Contraintes : artistic illustration, cohesive narrative --no icons, logos, mascots, 3d characters, ui mockups, photorealistic --ar 16:9 --style raw
+        ```
     </action>
 </step>

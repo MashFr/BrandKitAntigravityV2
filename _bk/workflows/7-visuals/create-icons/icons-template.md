@@ -12,9 +12,18 @@
 ## 2. Le Set d'Icônes Signature
 
 ### Le Prompt Template (Master)
-> **Master Prompt à copier-coller** :
-> `{{MASTER_ICON_PROMPT}}`
-> *Remplacez [SUBJECT] par le nom de l'icône souhaitée.*
+> **Master Prompt à copier-coller (Pseudo-Code)** :
+```text
+[VARIABLES]
+SUJET = "[INSERER_SUJET_ICI]"
+COULEUR_LUMIERE = "{{ICON_COLORS_LIGHTING}}"
+STYLE_MATIERE = "{{ICON_STYLE_DESCRIPTION}}"
+
+[EXECUTION]
+Génère une icône représentant SUJET. Applique le STYLE_MATIERE avec COULEUR_LUMIERE.
+Contraintes : highly legible, strong contrast, clear recognizable silhouette, pure white background, centered icon --no messy micro-details, low contrast, faint colors, thin lines --ar 1:1
+```
+> *Remplacez `[INSERER_SUJET_ICI]` par le nom de l'icône souhaitée.*
 
 ### Liste des Icônes à produire
 

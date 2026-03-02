@@ -4,7 +4,7 @@ description: Step 3 - Prompting Iconographique (Nanobanana)
 
 <step id="03_prompting">
     <action>
-        Définit un UN SEUL prompt "Master Template" qui servira pour toutes les icônes.
+        Définit un UN SEUL prompt "Master Template" (Pseudo-Code) qui servira pour toutes les icônes selon le framework BANANA.
 
         **Contraste & Lisibilité (Priorité Absolue)** :
         - Les icônes doivent avoir un niveau de contraste élevé (High Contrast) et des silhouettes claires.
@@ -13,13 +13,20 @@ description: Step 3 - Prompting Iconographique (Nanobanana)
         **Liberté de Style** :
         - Le style photographique, vectoriel, 3D, Isométrique, Glassmorphism, etc. doit être choisi pour coller **exactement** à la marque.
         
-        **Règle d'Or** : Ne JAMAIS générer une liste de prompts individuels. Un seul prompt suffit.
+        **Règle d'Or (BANANA + Pseudo-Code)** :
+        Structure attendue pour le Master Prompt :
+        ```text
+        [VARIABLES]
+        SUJET = "[INSERER_SUJET_ICI]"
+        COULEUR_LUMIERE = "[Décrire couleurs et éclairage exacts]"
+        STYLE_MATIERE = "[Décrire le style: 3D isometric clay, thick line art, glassmorphism, etc.]"
 
-        Structure attendue pour le Master Prompt (qui doit ABSOLUMENT être adapté au style choisi) :
-        `[SUBJECT] icon, [INSERT SPECIFIC STYLE: e.g. 3D isometric clay / thick line art / glassmorphism], highly legible, strong contrast, clear recognizable silhouette, [COLOR/LIGHTING], pure white background --no messy micro-details, low contrast, faint colors`
+        [EXECUTION]
+        Génère une icône représentant SUJET. Applique le STYLE_MATIERE avec COULEUR_LUMIERE.
+        Contraintes : highly legible, strong contrast, clear recognizable silhouette, pure white background, centered icon --no messy micro-details, low contrast, faint colors, thin lines --ar 1:1
+        ```
 
-        - Remplace `[INSERT SPECIFIC STYLE]` et `[COLOR/LIGHTING]` par les descriptions exactes du style de la marque.
-        - Laisse `[SUBJECT]` tel quel pour l'utilisateur.
-        - Ajuste les variables (ex: si le style est 3D, assurez-vous de bien décrire le rendu matériel et l'éclairage).
+        - Ajuste les variables `COULEUR_LUMIERE` et `STYLE_MATIERE` avec les descriptions exactes du style de la marque.
+        - Laisse le placeholder `[INSERER_SUJET_ICI]` tel quel dans le modèle.
     </action>
 </step>
